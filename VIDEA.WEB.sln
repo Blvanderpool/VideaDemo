@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIDEA.WEB", "VIDEA.WEB\VIDEA.WEB.csproj", "{3D26EDDA-5128-4C54-8A73-D835DF8A4908}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIDEA.MODELS", "VIDEA.MODELS\VIDEA.MODELS.csproj", "{9DB10ADA-534A-41B2-9C9C-D0039BA64D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIDEA.BUSINESS", "VIDEA.BUSINESS\VIDEA.BUSINESS.csproj", "{A058E2C4-9893-46D8-8094-E68B7B4827A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Helpers", "Common.Helpers\Common.Helpers.csproj", "{C787A11E-6E2D-4C1C-9BEE-5AC929D2E5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIDEA.API", "VIDEA.API\VIDEA.API.csproj", "{3E4044A8-E79F-41DE-AB14-0D8E30FCE9E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E8D3CE3-3817-4938-A161-7CFFDEDA3740}"
+	ProjectSection(SolutionItems) = preProject
+		BeneControllerCode.txt = BeneControllerCode.txt
+		Blockchain-Notes.txt = Blockchain-Notes.txt
+		Ersga.jQuery.ApiCalls.txt = Ersga.jQuery.ApiCalls.txt
+		JohnnyChea-Videa.txt = JohnnyChea-Videa.txt
+		MARKET-DUMP.txt = MARKET-DUMP.txt
+		ngTvShowsIsotope-BKUP.txt = ngTvShowsIsotope-BKUP.txt
+		..\VIDEA.WEBAPI\NOTES\Notes.txt = ..\VIDEA.WEBAPI\NOTES\Notes.txt
+		PersonControllerCode.txt = PersonControllerCode.txt
+		SignalR-Notes.txt = SignalR-Notes.txt
+		TVMazeApi-NotesWork.txt = TVMazeApi-NotesWork.txt
+		VIDEA-DEV-NOTES.txt = VIDEA-DEV-NOTES.txt
+		VIDEA-EndPoints.txt = VIDEA-EndPoints.txt
+		VIDEA-MARCH_NOTES.txt = VIDEA-MARCH_NOTES.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIDEA.ADMIN", "VIDEA.ADMIN\VIDEA.ADMIN.csproj", "{F7A42F68-1DF6-4BF9-A7CE-A170DDF331F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIDEA.SWAGGER", "VIDEA.SWAGGER\VIDEA.SWAGGER.csproj", "{1CB7F9BB-2153-49BF-A78F-F709E5219676}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D26EDDA-5128-4C54-8A73-D835DF8A4908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D26EDDA-5128-4C54-8A73-D835DF8A4908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D26EDDA-5128-4C54-8A73-D835DF8A4908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D26EDDA-5128-4C54-8A73-D835DF8A4908}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DB10ADA-534A-41B2-9C9C-D0039BA64D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB10ADA-534A-41B2-9C9C-D0039BA64D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB10ADA-534A-41B2-9C9C-D0039BA64D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB10ADA-534A-41B2-9C9C-D0039BA64D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A058E2C4-9893-46D8-8094-E68B7B4827A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A058E2C4-9893-46D8-8094-E68B7B4827A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A058E2C4-9893-46D8-8094-E68B7B4827A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A058E2C4-9893-46D8-8094-E68B7B4827A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C787A11E-6E2D-4C1C-9BEE-5AC929D2E5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C787A11E-6E2D-4C1C-9BEE-5AC929D2E5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C787A11E-6E2D-4C1C-9BEE-5AC929D2E5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C787A11E-6E2D-4C1C-9BEE-5AC929D2E5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E4044A8-E79F-41DE-AB14-0D8E30FCE9E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E4044A8-E79F-41DE-AB14-0D8E30FCE9E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E4044A8-E79F-41DE-AB14-0D8E30FCE9E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E4044A8-E79F-41DE-AB14-0D8E30FCE9E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A42F68-1DF6-4BF9-A7CE-A170DDF331F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A42F68-1DF6-4BF9-A7CE-A170DDF331F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A42F68-1DF6-4BF9-A7CE-A170DDF331F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A42F68-1DF6-4BF9-A7CE-A170DDF331F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CB7F9BB-2153-49BF-A78F-F709E5219676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CB7F9BB-2153-49BF-A78F-F709E5219676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CB7F9BB-2153-49BF-A78F-F709E5219676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CB7F9BB-2153-49BF-A78F-F709E5219676}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
