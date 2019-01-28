@@ -45,19 +45,17 @@ namespace VIDEA.ADMIN.Controllers
             var rezult = getUriData("http://api.tvmaze.com/shows");
 
 
-            //http://www.newtonsoft.com/json/help/html/DeserializeObject.htm
             List<TVMazeShow> ShowList = new List<TVMazeShow>();
 
             dynamic jsonObj = JsonConvert.DeserializeObject(rezult);
-            //---    // TVShowList = JsonConvert.DeserializeObject<TVMazeModels.TVShows>(rezult);
-
+            
             var x = 0;
             foreach (var obj in jsonObj)
             {
                 var aTVShow = new TVMazeShow();
 
                 x++;
-
+                // Filter for several TV Shows only
                 if (x == 24 || x == 25 || x == 26 || x == 32 || x == 73 || x == 115 || x == 163 || x == 167 || x == 176 || x == 189)
                     continue;
 
@@ -116,7 +114,6 @@ namespace VIDEA.ADMIN.Controllers
                         using (StreamReader respStreamReader = new StreamReader(responseStream))
                         {
                             jsonResults = respStreamReader.ReadToEnd();
-                            //jsonResults = jsonResults.Replace("\n", Environmet.NewLine);
                         }
                     }
                 }
@@ -127,85 +124,7 @@ namespace VIDEA.ADMIN.Controllers
         }
 
 
-        //// GET: TVMazeShows/Create
-        //public ActionResult Create()
-        //{
-        //    return View();
-        //}
-
-        // POST: TVMazeShows/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Create([Bind(Include = "id,name,status,runtime,premiered,day,time,rating,network,photo,summary")] TVMazeShow tVMazeShow)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        db.TVMazeShows.Add(tVMazeShow);
-        //        db.SaveChanges();
-        //        return RedirectToAction("Index");
-        //    }
-
-        //    return View(tVMazeShow);
-        //}
-
-        //// GET: TVMazeShows/Edit/5
-        //public ActionResult Edit(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-        //    }
-        //    TVMazeShow tVMazeShow = db.TVMazeShows.Find(id);
-        //    if (tVMazeShow == null)
-        //    {
-        //        return HttpNotFound();
-        //    }
-        //    return View(tVMazeShow);
-        //}
-
-        // POST: TVMazeShows/Edit/5
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult Edit([Bind(Include = "id,name,status,runtime,premiered,day,time,rating,network,photo,summary")] TVMazeShow tVMazeShow)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        db.Entry(tVMazeShow).State = EntityState.Modified;
-        //        db.SaveChanges();
-        //        return RedirectToAction("Index");
-        //    }
-        //    return View(tVMazeShow);
-        //}
-
-        // GET: TVMazeShows/Delete/5
-        //public ActionResult Delete(int? id)
-        //{
-        //    if (id == null)
-        //    {
-        //        return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-        //    }
-        //    TVMazeShow tVMazeShow = db.TVMazeShows.Find(id);
-        //    if (tVMazeShow == null)
-        //    {
-        //        return HttpNotFound();
-        //    }
-        //    return View(tVMazeShow);
-        //}
-
-        // POST: TVMazeShows/Delete/5
-        //[HttpPost, ActionName("Delete")]
-        //[ValidateAntiForgeryToken]
-        //public ActionResult DeleteConfirmed(int id)
-        //{
-        //    TVMazeShow tVMazeShow = db.TVMazeShows.Find(id);
-        //    db.TVMazeShows.Remove(tVMazeShow);
-        //    db.SaveChanges();
-        //    return RedirectToAction("Index");
-        //}
+       
 
         protected override void Dispose(bool disposing)
         {
