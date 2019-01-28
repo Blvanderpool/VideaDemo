@@ -1,0 +1,68 @@
+
+
+namespace VIDEA.ADMIN
+{
+    using System;
+    using System.Collections.Generic;
+    
+    public partial class Market
+    {
+        public int ID { get; set; }
+        public string MarketName { get; set; }
+        public string Multiplier { get; set; }
+    }
+}
+
+namespace VIDEA.ADMIN
+{
+    using System;
+    using System.Collections.Generic;
+    
+    public partial class Ad
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public Nullable<int> CampaignID { get; set; }
+        public Nullable<int> Duration { get; set; }
+        public Nullable<decimal> ProductionCost { get; set; }
+        public Nullable<System.DateTime> CreateDate { get; set; }
+    }
+}
+
+namespace VIDEA.ADMIN
+{
+    using System;
+    using System.Collections.Generic;
+    
+    public partial class ProgramAdSlot
+    {
+        public int PAID { get; set; }
+        public Nullable<int> ProgramID { get; set; }
+        public Nullable<int> SegmentDuration { get; set; }
+        public Nullable<int> AdID { get; set; }
+        public string StatusFlag { get; set; }
+        public Nullable<int> CampaignID { get; set; }
+        public Nullable<System.DateTime> RunDate { get; set; }
+        public Nullable<decimal> BaseCost { get; set; }
+        public Nullable<decimal> Surcharge { get; set; }
+        public Nullable<decimal> MarketCost { get; set; }
+        public Nullable<decimal> TotalCost { get; set; }
+    }
+}
+
+
+namespace VIDEA.ADMIN
+{
+    using System;
+    using System.Collections.Generic;
+    
+    public partial class Campaign
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public Nullable<decimal> Budget { get; set; }
+        public string Stage { get; set; }
+        public Nullable<System.DateTime> CampaignStart { get; set; }
+        public Nullable<System.DateTime> CampaignEnd { get; set; }
+    }
+}
