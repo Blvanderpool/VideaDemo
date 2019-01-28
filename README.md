@@ -8,19 +8,19 @@ Videa.WebAPI - Built with Web API and SwaggerUI
 Videa.Web - Built with AngularJS and Asp.Net MVC
 Database - SQL Server
 
-http://api.prain.org/videa_swagger.jpg
+<img src="http://api.prain.org/videa_swagger.jpg" />
 
 
-http://api.prain.org/dashboard.jpg
+<img src="http://api.prain.org/dashboard.jpg" />
 
 
-http://api.prain.org/tvMazeListing.jpg
+<img src="http://api.prain.org/tvMazeListing.jpg" />
 
 
-http://api.prain.org/tvmazedetail.jpg
+<img src="http://api.prain.org/tvmazedetail.jpg" />
 
 
-http://api.prain.org/VideaChart.jpg
+<img src="http://api.prain.org/VideaChart.jpg" />
 
 
-http://api.prain.org/ad_booking.jpg
+<img src="http://api.prain.org/ad_booking.jpg" />
